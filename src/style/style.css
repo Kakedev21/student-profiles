@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #371b58;
+}
+
+header nav {
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+}
+
+header nav .logo {
+  cursor: pointer;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-left: 10%;
+  font-size: 30px;
+}
+
+header nav .logo a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav .nav-links {
+  text-align: right;
+  background: #fff;
+  padding: 10px 30px;
+  border-bottom-left-radius: 18px;
+}
+
+header nav .nav-links ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 25px;
+}
+
+header nav .nav-links ul li a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+main {
+  background-color: #371b58;
+}
+
+main .text-container .t-row {
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px 70px;
+  color: #dcdcdc;
+}
+
+main .text-container .t-row .left-col {
+  -ms-flex-preferred-size: 48%;
+      flex-basis: 48%;
+}
+
+main .text-container .t-row .left-col .faicon {
+  color: #dcdcdc;
+  font-size: 470px;
+  padding-bottom: 75px;
+}
+
+main .text-container .t-row .right-col {
+  position: relative;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+main .text-container .t-row .right-col h1 {
+  font-size: 90px;
+  margin-left: 135px;
+}
+
+main .text-container .t-row .right-col p {
+  line-height: 30px;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+main .text-container .t-row .right-col .btn {
+  position: absolute;
+  bottom: 145px;
+  padding: 10px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  background: -webkit-gradient(linear, left top, right top, from(#a760ff), to(#ca82ff));
+  background: linear-gradient(to right, #a760ff, #ca82ff);
+}
+
+main .text-container .t-row .right-col .btn a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main .home-container {
+  width: 100%;
+  height: 100vh;
+  background-color: #371b58;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .home-container .student {
+  color: #fff;
+  width: 90%;
+  max-width: 320px;
+  text-align: center;
+  padding: 30px 20px;
+  -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background: #4c3575;
+}
+
+main .home-container .student h2 {
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+main .home-container .student p {
+  font-size: 12px;
+}
+
+main .home-container .student a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main .home-container .student .btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, right top, from(#a760ff), to(#ca82ff));
+  background: linear-gradient(to right, #a760ff, #ca82ff);
+  display: inline-block;
+  margin: 40px 0;
+  font-size: 15px;
+}
+
+main .home-container .student .userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.mainSlide .carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainSlide .selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sContainer {
+  width: 100%;
+  height: 100vh;
+  background: #fafafa;
+  padding: 50px 8%;
+  position: relative;
+  font-weight: 600;
+}
+
+.SNav {
+  background-image: url("../img//download.png");
+  background-size: cover;
+  background-position: right;
+  padding: 10% 5% 15% 15%;
+  position: absolute;
+  left: -10%;
+  top: -12%;
+  margin-top: 150px;
+  border-radius: 50%;
+}
+
+.SNav ul li {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.SNav ul li a {
+  text-decoration: none;
+}
+
+.SNav ul li a .sIcon {
+  color: #fff;
+  font-size: 30px;
+}
+
+.srow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 10%;
+}
+
+.srow .col1 {
+  max-width: 800px;
+  padding-left: 10%;
+  color: 333;
+}
+
+.srow .col1 h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 50px;
+  margin-bottom: 30px;
+}
+
+.srow .col1 ul {
+  margin: 30px 0;
+}
+
+.col2 {
+  text-align: right;
+  position: relative;
+}
+
+.col2 .sImg {
+  height: 450px;
+  width: 90%;
+  max-width: 450px;
+  position: relative;
+  z-index: 2;
+  -webkit-transition: -webkit-transform 0.3s;
+  transition: -webkit-transform 0.3s;
+  transition: transform 0.3s;
+  transition: transform 0.3s, -webkit-transform 0.3s;
+}
+
+.col2 .sImg:hover {
+  -webkit-transform: translate(-25px, -25px);
+          transform: translate(-25px, -25px);
+  cursor: pointer;
+}
+
+.col2 .bImg {
+  position: absolute;
+  height: 450px;
+  width: 90%;
+  max-width: 450px;
+  top: -12px;
+  right: 15px;
+}
+
+.skills {
+  margin-left: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.skills .skillbar {
+  margin: 10px 0;
+}
+
+.memories {
+  margin-top: 100px;
+}
+
+.memories h1 {
+  margin: 30px 0;
+}
+
+.circleSpinner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
