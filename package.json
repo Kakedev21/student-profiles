@@ -1,7 +1,7 @@
 {
   "name": "cardweb",
   "version": "0.1.0",
-  "homepage": "https://Kakedev21.github.io",
+  "homepage": "https://Kakedev21.github.io/student-profiles",
   "private": true,
   "dependencies": {
     "@ramonak/react-progress-bar": "^5.0.0",
