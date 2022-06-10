@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style/style.css";
 import Header from "./components/Header";
 import Home from "./pages/Home";
@@ -14,7 +14,7 @@ const App = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="//student-profiles" element={<Home />} />
         <Route path="/abella" element={<Abella />} />
         <Route path="/catedrilla" element={<Catedrilla />} />
         <Route path="/jayson" element={<Jayson />} />

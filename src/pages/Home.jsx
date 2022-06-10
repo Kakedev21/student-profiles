@@ -51,14 +51,14 @@ function Home() {
                 </p>
               </div>
               <button className="btn">
-                <a href="#getss">Explore Us!</a>
+                <a href="#onScroll">Explore Us!</a>
               </button>
             </div>
           </div>
         </div>
       </Zoom>
       <Zoom>
-        <div className="home-container" id="getss">
+        <div className="home-container" id="onScroll">
           <Carousel className="mainSlide">
             {studentData.map((student) => {
               const { img, name, position, routes } = student;

@@ -5,15 +5,15 @@ function Header() {
     <header>
       <nav>
         <h1 className="logo">
-          <a href="/">Students</a>
+          <a href="/student-profiles">Students</a>
         </h1>
         <div className="nav-links">
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="/student-profiles">Home</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="/student-profiles">About</a>
             </li>
             <li>
               <a href="https://github.com/Kakedev21/studentProfile">
